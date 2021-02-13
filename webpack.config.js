@@ -7,7 +7,7 @@ const options = {
 
   extraJsLoaders: [
     {
-      loader: 'linaria/loader',
+      loader: '@linaria/webpack-loader',
       options: {
         sourceMap: true,
       },

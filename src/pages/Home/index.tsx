@@ -1,5 +1,5 @@
-import { css } from 'linaria';
-import { styled } from '@linaria/react'
+import { css } from '@linaria/core';
+import { styled } from '@linaria/react';
 
 import AssetPrice from './AssetPrice';
 
@@ -20,10 +20,10 @@ const sizes = {
   large: '30px',
   medium: '24px',
   small: '15px',
-}
+};
 
-const P = styled.p<{size: keyof typeof sizes}>`
-  font-size: ${props => sizes[props.size]};
+const P = styled.p<{ size: keyof typeof sizes }>`
+  font-size: ${(props) => sizes[props.size]};
   &:not(:first-child) {
     margin-top: 20px;
   }
@@ -34,9 +34,7 @@ export default function Home() {
     <div className={home}>
       <nav style={{ position: 'fixed', top: '18px' }}>Anansi</nav>
       <main>
-        <P size="large">
-          Congrats! You&apos;ve created linaria-test!
-        </P>
+        <P size="large">Congrats! You&apos;ve created linaria-test!</P>
         <P size="small">
           Check out the generated ReadMe for instructions on how to use this
           library
