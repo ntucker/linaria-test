@@ -29,9 +29,9 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
-    "@anansi/babel-preset": "^2.1.8",
-    "@anansi/eslint-plugin": "^0.9.19",
-    "@anansi/webpack-config": "^6.0.0-beta.2",
+    "@anansi/babel-preset": "^2.1.9",
+    "@anansi/eslint-plugin": "^0.9.20",
+    "@anansi/webpack-config": "^6.0.0-beta.4",
     "@babel/core": "^7.12.16",
     "@linaria/babel-preset": "^3.0.0-beta.1",
     "@linaria/core": "^3.0.0-beta.1",

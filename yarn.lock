@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anansi/babel-preset@^2.1.8":
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/@anansi/babel-preset/-/babel-preset-2.1.8.tgz#ef6f132aef824c32e511aeb8f7e1c15cf8634b85"
-  integrity sha512-wJbkl57xJ7T6a4AxFsaX7pTItmNNCCiaPPCCA49gK3BxQ5zpCXywalR4bLd6ETjsT54/v6AEobgMfiZulyXZ4w==
+"@anansi/babel-preset@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@anansi/babel-preset/-/babel-preset-2.1.9.tgz#0dd9feefec3c8fea904c3ce35bb677f3f558217e"
+  integrity sha512-t3nEEpmNXdu2tDaTv0j6AfipskLV7fsbBPrsaVvsxv1gd1svdspp41p41OUdmKf0unz0LLGU3sqndQb8RukXHg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.12.13"
     "@babel/plugin-proposal-class-static-block" "^7.12.13"
@@ -33,13 +33,13 @@
     path "^0.12.7"
     stable "^0.1.8"
 
-"@anansi/eslint-plugin@^0.9.19":
-  version "0.9.19"
-  resolved "https://registry.yarnpkg.com/@anansi/eslint-plugin/-/eslint-plugin-0.9.19.tgz#31c678624c279908b1032a2120a80cd960ed69e7"
-  integrity sha512-PhkDVrSuAmOw+AQUWkdtjhMKbSBvXyYykmB73STlsh2snls/9qnesCeXIaCgSLFTYW1UIAKUPe1bHI11T2APzQ==
+"@anansi/eslint-plugin@^0.9.20":
+  version "0.9.20"
+  resolved "https://registry.yarnpkg.com/@anansi/eslint-plugin/-/eslint-plugin-0.9.20.tgz#8cff00d976f0a06ed1b999e1a90e1167069d1ae0"
+  integrity sha512-bVMC8iBG/oOt9ScF69C1/uAjds7IUCSTqasMWeBREK9R7LZ0bFW9gHObA6WaQNjTQZQI34igs8AAd6ZX2Bu52A==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.14.2"
-    "@typescript-eslint/parser" "^4.14.2"
+    "@typescript-eslint/eslint-plugin" "^4.15.0"
+    "@typescript-eslint/parser" "^4.15.0"
     babel-eslint "^10.1.0"
     babel-plugin-root-import "^6.6.0"
     eslint-config-prettier "^7.2.0"
@@ -49,10 +49,10 @@
     eslint-plugin-flowtype "^5.2.0"
     eslint-plugin-jsx-a11y "^6.3.1"
 
-"@anansi/webpack-config@^6.0.0-beta.2":
-  version "6.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@anansi/webpack-config/-/webpack-config-6.0.0-beta.2.tgz#dfa2d0f97ad8368a526f590ffd42cdbe8fa760fd"
-  integrity sha512-9jHxQkw2OZiqd95Y891DR9DVEKraIcTKIJyjRpptEkVNDsY5M0RoPBEHqBO1nkuqwUEdSRA8CDJdmXD1P6Qe8w==
+"@anansi/webpack-config@^6.0.0-beta.4":
+  version "6.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@anansi/webpack-config/-/webpack-config-6.0.0-beta.4.tgz#15b868005084fa333b6d9fd7569aa3430ee444ae"
+  integrity sha512-Sxl/3shaeWF4TE+FsCzooAQcDZdCWwnmVejZUFzTIlSqdkBXX3b8NDLhQShs4H5haUNe3tDcJ7j60RGEeGfBqQ==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.4.3"
     "@svgr/webpack" "^5.5.0"
@@ -69,15 +69,15 @@
     css-loader "^5.0.2"
     domain-browser "^4.19.0"
     duplicate-package-checker-webpack-plugin "^3.0.0"
-    error-overlay-webpack-plugin "^0.4.1"
+    error-overlay-webpack-plugin "^0.4.2"
     events "^3.2.0"
     file-loader "^6.2.0"
     hard-source-webpack-plugin "^0.13.1"
-    html-webpack-plugin "^5.0.0"
+    html-webpack-plugin "^5.1.0"
     https-browserify "^1.0.0"
     is-wsl "^2.2.0"
     markdown-loader "^6.0.0"
-    mini-css-extract-plugin "^1.3.5"
+    mini-css-extract-plugin "^1.3.6"
     node-sass "^5.0.0"
     optimize-css-assets-webpack-plugin "^5.0.4"
     os-browserify "^0.3.0"
@@ -113,7 +113,7 @@
     webpack-bundle-analyzer "^4.4.0"
     webpack-node-externals "^2.5.2"
     webpack-remove-empty-scripts "^0.7.1"
-    worker-loader "^3.0.7"
+    worker-loader "^3.0.8"
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"
@@ -1574,7 +1574,7 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
-"@typescript-eslint/eslint-plugin@^4.14.2":
+"@typescript-eslint/eslint-plugin@^4.15.0":
   version "4.15.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.15.0.tgz#13a5a07cf30d0d5781e43480aa2a8d38d308b084"
   integrity sha512-DJgdGZW+8CFUTz5C/dnn4ONcUm2h2T0itWD85Ob5/V27Ndie8hUoX5HKyGssvR8sUMkAIlUc/AMK67Lqa3kBIQ==
@@ -1600,7 +1600,7 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.14.2":
+"@typescript-eslint/parser@^4.15.0":
   version "4.15.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.15.0.tgz#8df94365b4b7161f9e8514fe28aef19954810b6b"
   integrity sha512-L6Dtbq8Bc7g2aZwnIBETpmUa9XDKCMzKVwAArnGp5Mn7PRNFjf3mUzq8UeBjL3K8t311hvevnyqXAMSmxO8Gpg==
@@ -3860,7 +3860,7 @@ error-ex@^1.2.0, error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-error-overlay-webpack-plugin@^0.4.1:
+error-overlay-webpack-plugin@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/error-overlay-webpack-plugin/-/error-overlay-webpack-plugin-0.4.2.tgz#cdb00493d367934b7ee03080646321a6d1404b24"
   integrity sha512-STpxP057CX7UM40klA7wYugZXkMC8SLsDA4t1U23Bf1iKiOLZb/ynkVYt10Hi6HJwd4hQDPOESL7S0pqh0XnHA==
@@ -5128,7 +5128,7 @@ html-minifier-terser@^5.0.1:
     relateurl "^0.2.7"
     terser "^4.6.3"
 
-html-webpack-plugin@^5.0.0:
+html-webpack-plugin@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.1.0.tgz#1c11bbe01ab9d1262c4b601edebcf394364b1f60"
   integrity sha512-2axkp+2NHmvHUWrKe1dY4LyM3WatQEdFChr42OY7R/Ad7f0AQzaKscGCcqN/FtQBxo8rdfJP7M3RMFDttqok3g==
@@ -6351,7 +6351,7 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-mini-css-extract-plugin@^1.3.5:
+mini-css-extract-plugin@^1.3.6:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-1.3.6.tgz#02e2b477aa7ab2579c7ea2854a875897a8b8dad0"
   integrity sha512-t86rLnySRQgN2+58gAIARTEtnClLNZoC99shNrvQ960V/wB9n50AUKJyqly76/s4fT0zwaLFIDFZAW7aK25pvg==
@@ -10165,7 +10165,7 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-worker-loader@^3.0.7:
+worker-loader@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/worker-loader/-/worker-loader-3.0.8.tgz#5fc5cda4a3d3163d9c274a4e3a811ce8b60dbb37"
   integrity sha512-XQyQkIFeRVC7f7uRhFdNMe/iJOdO6zxAaR3EWbDp45v3mDhrTi+++oswKNxShUNjPC/1xUp5DB29YKLhFo129g==
