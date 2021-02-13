@@ -40,3 +40,7 @@ Check Packages for duplicates or circular dependencies:
 ```bash
 yarn pkgcheck
 ```
+
+### Learn Linaria
+
+https://github.com/callstack/linaria/blob/master/docs/BASICS.md
