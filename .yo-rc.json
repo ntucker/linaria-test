@@ -1,0 +1,26 @@
+{
+  "@anansi/generator-js": {
+    "promptValues": {
+      "projectType": "SPA",
+      "githubOrg": "ntucker",
+      "features": [
+        "CI"
+      ],
+      "reactMode": "concurrent",
+      "style": "linaria"
+    },
+    "githubOrg": "ntucker",
+    "rootPath": "src",
+    "assetPath": "dist",
+    "appName": "linaria-test",
+    "githubDomain": "github.com",
+    "testing": false,
+    "features": [
+      "CI"
+    ],
+    "badges": "",
+    "webpack": true,
+    "reactMode": "concurrent",
+    "style": "linaria"
+  }
+}

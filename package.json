@@ -1,0 +1,57 @@
+{
+  "name": "linaria-test",
+  "version": "0.0.1",
+  "description": "linaria-test - An Anansi project",
+  "scripts": {
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "yarn run lint --fix",
+    "type-check": "tsc",
+    "start": "webpack serve --mode=development",
+    "prod": "serve dist",
+    "build": "webpack --mode=production",
+    "analyze": "webpack --mode=production --env analyze",
+    "profile": "webpack --mode=production --env profile",
+    "pkgcheck": "webpack --env check=nobuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ntucker/linaria-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntucker/linaria-test/issues"
+  },
+  "homepage": "https://github.com/ntucker/linaria-test#readme",
+  "keywords": [
+    "anansi"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@anansi/babel-preset": "^2.1.8",
+    "@anansi/eslint-plugin": "^0.9.19",
+    "@anansi/webpack-config": "^5.1.11",
+    "@babel/core": "^7.12.16",
+    "@rest-hooks/test": "^3.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "eslint": "^7.20.0",
+    "linaria": "^3.0.0-beta.1",
+    "react-refresh": "^0.9.0",
+    "redux": "^4.0.5",
+    "serve": "^11.3.2",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4",
+    "webpack-dev-server": "^3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.13",
+    "@rest-hooks/rest": "^1.0.2",
+    "react": "^0.0.0-experimental-696e736be",
+    "react-dom": "^0.0.0-experimental-696e736be",
+    "react-test-renderer": "^0.0.0-experimental-696e736be",
+    "rest-hooks": "^5.0.3"
+  }
+}
