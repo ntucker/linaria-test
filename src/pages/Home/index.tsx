@@ -1,5 +1,9 @@
 import { css } from '@linaria/core';
 import { styled } from '@linaria/react';
+import { useContext } from 'react';
+
+import Button from 'components/Button';
+import { ThemeContext } from 'Theme';
 
 import AssetPrice from './AssetPrice';
 
@@ -30,10 +34,12 @@ const P = styled.p<{ size: keyof typeof sizes }>`
 `;
 
 export default function Home() {
+  const toggleTheme = useContext(ThemeContext);
   return (
     <div className={home}>
       <nav style={{ position: 'fixed', top: '18px' }}>Anansi</nav>
       <main>
+        <Button onClick={toggleTheme}>Change theme</Button>
         <P size="large">Congrats! You&apos;ve created linaria-test!</P>
         <P size="small">
           Check out the generated ReadMe for instructions on how to use this

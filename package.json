@@ -57,6 +57,7 @@
   "dependencies": {
     "@babel/runtime": "^7.12.13",
     "@rest-hooks/rest": "^1.0.2",
+    "polished": "^4.1.0",
     "react": "^0.0.0-experimental-696e736be",
     "react-dom": "^0.0.0-experimental-696e736be",
     "react-test-renderer": "^0.0.0-experimental-696e736be",
